@@ -8,6 +8,9 @@ let w1Total = 0
 function addTime(w, d) {
   time[w][d]++
   totalTime++
+  if (time[w][d] > 24) {
+    time[w][d] = 24
+  }
   findWeeklyTime()
 }
 

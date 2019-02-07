@@ -1,9 +1,14 @@
 body {
-  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: 'Nunito', sans-serif;
+}
+
+.header-text {
+  margin-top: 20px;
 }
 
 .weeks {
   background-color: rgb(214, 214, 214);
   margin-top: 20px;
   margin-bottom: 20px;
+  padding-top: 5px;
 }
