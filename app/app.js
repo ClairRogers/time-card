@@ -1,13 +1,9 @@
 let time = [[0, 0, 0, 0, 0], [0, 0, 0, 0, 0]]
 
 
-let totalTime = 0
-let w0Total = 0
-let w1Total = 0
 
 function addTime(w, d) {
   time[w][d]++
-  totalTime++
   if (time[w][d] > 24) {
     time[w][d] = 24
   }
@@ -16,7 +12,6 @@ function addTime(w, d) {
 
 function subtractTime(w, d) {
   time[w][d]--
-  totalTime--
   if (time[w][d] < 1) {
     time[w][d] = 0
   }
